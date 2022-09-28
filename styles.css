@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --btnColor: rgb(235, 155, 8);
+}
+nav{
+    padding: 20px;
+}
+
+.ham {
+  display: flex;
+  flex-direction: column;
+ 
+}
+.bars {
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  background: black;
+  margin-top:8px;
+ 
+}
+.two {
+  top: 5px;
+}
+.three {
+  top: 10px;
+}
+
+.logo {
+  width: 100px;
+  margin-left: 20px;
+}
+img{
+    object-fit: cover;
+}
+
+
+
+.topbanner img{
+    width: 350px;
+    border-radius: 5px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.products img{
+    width: 175px;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sales img{
+    width: 170px;
+}
+.sales p{
+    max-width: 170px;
+}
+
+button{
+    background: var(--btnColor);
+    color: #fff;
+    padding: 2px 15px;
+    border: none;
+    border-radius: 3px;
+}
+
+.store{
+    width: 100px;
+    border: 1px ;
+    background: rgb(11, 11, 31);
+    color: white;
+    border-radius: 3px;
+}
